@@ -165,26 +165,26 @@
 								<img src="img/project01.png" alt="Project 01">
 								<h6 class="hidden-phone">Cummedico</h6>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-								<a href="#CummedicoModal" data-toggle="modal" 
-								class="btn-inverse">
+								<button class="btn-inverse">
 									Read <span>More</span>
 									<i class="icon-plus"></i>
-								</a>
+								</button>
 							</div><!-- /span4 -->
 
-								<div id="CummedicoModal" class="modal hide fade">
-							  		<div class="modal-header">
-							    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							    			<h3>Modal header</h3>
-							  		</div>
-							  		<div class="modal-body">
-							    		<p>One fine body…</p>
-							  		</div>
-							  		<div class="modal-footer">
-							    		<a href="#" class="btn-inverse" style="max-width: 60px;">Close</a>
-							    		
-							  		</div>
-								</div>							
+							<div class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"
+aria-hidden="true">&times;</button>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>							
 
 							<div class="span4">
 								<img src="img/project02.png" alt="Project 02">
