@@ -467,7 +467,7 @@
 									</div><!-- /row-fluid -->
 									
 					                <input type="hidden" name="save" value="contact">  
-									<button type="submit" class="btn-inverse pull-right">
+									<button onclick="sendMail(); return false" type="submit" class="btn-inverse pull-right">
 										Send <span>Message</span>
 										<i class="icon-circle-arrow-right"></i>
 									</button>
@@ -486,7 +486,20 @@
 				
 			</div><!-- /container -->	
 		</div><!-- /wrapper -->		
-	
+		
+
+		<script type="text/javascript">
+		function sendMail() {
+    		var link = "mailto:kuba@kucharski.it"
+             + "?cc=k.waclawek@gmail.com"
+             + "&subject=" + escape("Contacting ZenMakers!")
+             + "&body=" + escape(document.getElementById('message').value)
+    		;
+
+
+    	window.location.href = link;
+		}
+		</script>
 	
 		<!-- JAVASCRIPTS -->
 		<script type="text/javascript" src="js/waypoints.min.js"></script>
