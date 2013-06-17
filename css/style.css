@@ -352,14 +352,14 @@ a:hover {
 /* Testimonial */
 
 #testimonial {
-	background:#e74c3c;
+	background:light-grey;
 	text-align:center;
-	padding:40px;
+	padding:60px;
 	background-attachment: scroll;
 	background-position: center top;
 	margin-left: -50px;
 	position: relative;
-	padding: 150px 0 170px;
+	
 }
 
 #testimonial h2{
