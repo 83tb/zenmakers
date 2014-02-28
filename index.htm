@@ -527,9 +527,11 @@
 		<script type="text/javascript">
 			function sendMail() {
     			var link = "mailto:kuba@kucharski.it"
-             	+ "?cc=sz.kubicki@gmail.com"
-             	+ "&subject=" + escape("Contacting ZenMakers!")
-             	+ "&body=" + escape(document.getElementById('message').value);
+             			 + "?cc=sz.kubicki@gmail.com"
+             			 + "&subject=" + escape("Contacting ZenMakers!")
+             			 + "&body=" + escape(document.getElementById('message').value)
+             	;
+             	
 				window.location.href = link;
 			}
 		</script>
