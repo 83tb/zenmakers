@@ -2,8 +2,6 @@
  * Flat & Scroll - Multipurpose One Page Theme
  *
  * Copyright 2013 
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
  * Created by: Carlos Alvarez
  * URL: http://www.basicoh.com
  * Designed and built based on Twitter Bootstrap.
@@ -11,7 +9,7 @@
 
 
 
-@import url(http://fonts.googleapis.com/css-family=Open+Sans-300,400,700.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700.css);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400);
 
 /* Global */
@@ -21,12 +19,12 @@ html {
 }
 
 body {
-	background: #ecf0f1;
+	background: #fff; /*#ecf0f1;*/
     color: #2d2d2d;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px; font-size: 1.5rem;
+    font-size: 15px; font-size: 2.0rem;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 30px;
     /* margin-top: 60px; */
 }
 
@@ -271,7 +269,7 @@ a:hover {
 }
 
 .btn-inverse {
-	background: none #c0392b;
+	background: none #1abc9c; /*#c0392b;*/
     color: #F1F1F1;
     margin-top: 25px;
 }
@@ -339,27 +337,28 @@ a:hover {
 	margin-left: -50px;
 	position: relative;
 	padding:40px;
-	background:#fff;
+	background:#1abc9c; /*#fff; */
 	text-align:center;
 }
 
 #welcome h2 {
 	font-family: 'Open Sans', sans-serif;
-	font-size:40px;
+	font-size:34px;
 	font-weight:300;
+	color: #fff;
 }
 
 /* Testimonial */
 
 #testimonial {
-	background:light-grey;
+	background: #1abc9c; /*#e74c3c;*/
 	text-align:center;
-	padding:60px;
+	padding:40px;
 	background-attachment: scroll;
 	background-position: center top;
 	margin-left: -50px;
 	position: relative;
-	
+	padding: 150px 0 170px;
 }
 
 #testimonial h2{
@@ -401,7 +400,7 @@ a:hover {
 
 #twitter h4 {
 	color:#f2f2f2;
-	font-size:20px;
+	font-size:30px;
 	font-family:'Open Sans', sans-serif;
 	text-align:center;
 }
@@ -413,7 +412,7 @@ a:hover {
 }
 
 #twitter bold {
-	color:#c0392b;
+	color: #1abc9c; /*#c0392b;*/
 }
 
 /* Section 1 */ 
@@ -480,6 +479,7 @@ a:hover {
 }
 
 .service {
+	font-family: 'Open Sans', sans-serif;
 	padding:12px;
 	text-align:left;
 }
@@ -488,7 +488,7 @@ a:hover {
     display: block;
     padding: 7px 0;
     border-bottom: 1px solid #bfbfbf;
-    font-size:14px;
+    font-size:16px;
 }
 .service li:last-child {
     border: none;
@@ -496,14 +496,14 @@ a:hover {
 
 .service:hover {
 	background-color:#f5f7f8;
-	border-bottom:5px #c0392b solid; 
+	border-bottom:5px #1abc9c solid; /*#c0392b solid; */
 }
 
 
 /* Section 3 */ 
 
 #section3 {
-	background-image:url('http://www.99hdwallpaper.com/space/images/space-wallpaper.jpg');
+	background-image:url(../img/project-bg.jpg);
 	color: #F1F1F1;
 }
 
@@ -551,7 +551,7 @@ a:hover {
 
 
 .pricing-column:hover > .pricing-title {
-    border-top: 5px solid #c0392b;
+    border-top: 5px solid #1abc9c; /*#c0392b;*/
 }
 
 .pricing-column:hover > .pricing-button {
@@ -577,7 +577,7 @@ a:hover {
 }
 
 .pricing-column li.pricing-price {
-	color:#c0392b;
+	color:#1abc9c; /*#c0392b;*/
 	font-size: 200%;
 	line-height: 120%;
 }
@@ -589,9 +589,11 @@ a:hover {
 
 .pricing-column .pricing-button .button {
 	margin:0 !important;
-    font-size: 18px;
-    color:#c0392b
-}
+    font-size: 20px;
+    font-weight:600;
+    /*background-color: #1abc9c;*/
+    color: #1abc9c; /*#c0392b*/
+ }
 
 
 /* Section 4 */
@@ -638,7 +640,7 @@ a:hover {
 }
 
 #section4 ul.article-tags li:hover, #section4 ul.article-tags li.current {
-    background-color: #c0392b;
+    background-color: #1abc9c; /*#c0392b; */
     color:#ecf0f1;
 }
 
@@ -737,7 +739,7 @@ a:hover {
 	
 	
 	#section1 {
-		padding: 170px 0;
+		padding: 200px 0;
 	}
 	
 	#section1 .intro h1 {
@@ -749,7 +751,7 @@ a:hover {
 	#section1 .intro h3 {
 	    font-size: 28px; font-size: 2.8rem;
 	    line-height: 34px;
-	    width: 90%;
+	    width: 100%;
 	}
 	
 	.section h2 {
