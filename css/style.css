@@ -294,7 +294,7 @@ a:hover {
     width: 190px;
 }
 
-.btn-inverse-blog {
+.btn-default, .btn-inverse-blog {
 
 	border: 1px solid;
 	border-color: #fff;
@@ -306,7 +306,7 @@ a:hover {
     line-height: 20px;
     padding: 14px 20px;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     width: 190px;
 }
 
