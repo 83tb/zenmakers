@@ -3550,6 +3550,17 @@ input[type="button"].btn-block {
   *background-color: #151515;
 }
 
+.btn-inverse-blog:hover,
+.btn-inverse-blog:focus,
+.btn-inverse-blog:active,
+.btn-inverse-blog.active,
+.btn-inverse-blog.disabled,
+.btn-inverse-blog[disabled] {
+  color: #ffffff;
+  background-color: #222222;
+  *background-color: #151515;
+}
+
 .btn-inverse:active,
 .btn-inverse.active {
   background-color: #080808 \9;

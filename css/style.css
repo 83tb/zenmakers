@@ -275,7 +275,7 @@ a:hover {
 }
 
 .btn-inverse-blog {
-	background: none #1abc9c; /* #c0392b; */ 
+	background: transparent; /* none #1abc9c; #c0392b; */ 
     color: #F1F1F1;
     margin-top: 25px;
 }
