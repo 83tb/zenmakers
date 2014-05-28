@@ -3353,7 +3353,8 @@ input[type="button"].btn-block {
 .btn-danger.active,
 .btn-success.active,
 .btn-info.active,
-.btn-inverse.active {
+.btn-inverse.active
+.btn-inverse-blog.active {
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -3838,7 +3839,8 @@ input[type="submit"].btn.btn-mini {
 .btn-danger .caret,
 .btn-info .caret,
 .btn-success .caret,
-.btn-inverse .caret {
+.btn-inverse .caret
+ .btn-inverse-blog .caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
