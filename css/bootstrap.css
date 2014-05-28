@@ -3353,8 +3353,7 @@ input[type="button"].btn-block {
 .btn-danger.active,
 .btn-success.active,
 .btn-info.active,
-.btn-inverse.active
-.btn-inverse-blog.active {
+.btn-inverse.active {
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -3567,10 +3566,6 @@ input[type="button"].btn-block {
   background-color: #080808 \9;
 }
 
-.btn-inverse-blog:active,
-.btn-inverse-blog.active {
-  background-color: #080808 \9;
-}
 
 button.btn,
 input[type="submit"].btn {
@@ -3839,8 +3834,7 @@ input[type="submit"].btn.btn-mini {
 .btn-danger .caret,
 .btn-info .caret,
 .btn-success .caret,
-.btn-inverse .caret
- .btn-inverse-blog .caret {
+.btn-inverse .caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
