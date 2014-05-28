@@ -293,7 +293,8 @@ a:hover {
     color: #F1F1F1;
     margin-top: 25px;
 
-	border: medium none;
+	border: 1px solid;
+	border-color: #fff;
     cursor: pointer;
     display: inline-block;
     /*font-family: "Montserrat",sans-serif; */
