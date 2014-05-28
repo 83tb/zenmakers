@@ -275,7 +275,7 @@ a:hover {
 }
 
 .btn-inverse-blog {
-	background: transparent;/* none #1abc9c; #c0392b; */ 
+	background: none #1abc9c; /* #c0392b; */ 
     color: #F1F1F1;
     margin-top: 25px;
 }
@@ -294,7 +294,7 @@ a:hover {
     width: 190px;
 }
 
-.btn-default, .btn-inverse-blog {
+.btn-inverse-blog {
 
 	border: 1px solid;
 	border-color: #fff;
@@ -306,7 +306,7 @@ a:hover {
     line-height: 20px;
     padding: 14px 20px;
     text-align: center;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     width: 190px;
 }
 
