@@ -3566,6 +3566,11 @@ input[type="button"].btn-block {
   background-color: #080808 \9;
 }
 
+.btn-inverse-blog:active,
+.btn-inverse-blog.active {
+  background-color: #080808 \9;
+}
+
 button.btn,
 input[type="submit"].btn {
   *padding-top: 3px;
