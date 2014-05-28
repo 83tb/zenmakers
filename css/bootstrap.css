@@ -3556,8 +3556,8 @@ input[type="button"].btn-block {
 .btn-inverse-blog.active,
 .btn-inverse-blog.disabled,
 .btn-inverse-blog[disabled] {
-  color: #ffffff;
-  background-color: #1abc9c;
+  color: #000;
+  background-color: #fff;
   *background-color: #151515;
 }
 
